@@ -1,0 +1,29 @@
+/* Day 34 CSS Navagation - cascading style sheet */
+
+/* Style <nav> black bar at window top with white text */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}

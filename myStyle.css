@@ -1,0 +1,97 @@
+body {
+  background-image: linear-gradient(to bottom, #aef900 , #ff0033);
+  width: 50%;
+  margin-left: auto; /* auto on the margins centers the element */
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+  color: lab(100% 0.01 -0.01);
+}
+
+a:link {
+  color: #ffff00;
+}
+
+/* visited link */
+a:visited {
+  color: #b7b400;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00ffea;
+}
+
+
+h1 {
+  font-family: 'Papyrus', 'Trebuchet MS', serif;
+  color: hsl(0, 100%, 47%);
+}
+
+h3 {
+  font-family: 'Papyrus', 'Trebuchet MS', serif;
+  color: hsl(0, 100%, 47%);
+
+}
+.sectionheader {
+  /* text-align: center makes all text inside element center-aligned */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+}
+
+.header {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: auto;
+  font-family: 'Comic Sans', 'Trebuchet MS', serif;
+  font-size: .8em; /* 1.1 times the regular font size of the element */
+  font-style: italic;
+  color: #00ffee;
+  
+}
+
+.navigation {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Comic Sans', 'Trebuchet MS', serif;
+  font-style: bold;
+  color:#f0008c
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 300px; /* make sure image is never exteremely tall */
+
+}
+
+table {
+  border: 5px solid hwb(122 0% 0%);
+  border-collapse: collapse; /* makes it so that borders are not duplicated */
+}
+
+td {
+  border: 1px solid hwb(122 0% 0%);
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* This selector applies to any table elements within any element
+   that is of the class center */
+.center > table {
+  margin-left: center;
+  margin-right: center;
+}
